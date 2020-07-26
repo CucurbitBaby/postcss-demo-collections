@@ -1,0 +1,15 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* box-shadow autoprefxier 认为你指定的浏览器们 已经不需要加前缀了 */
+.box {
+	box-shadow: 0 0 3px rgba(255,255,255, .3);
+}
+.box {
+	display: flex;
+  transition: all .5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+}

@@ -1,0 +1,17 @@
+/* css-reset */
+* {
+	padding: 0;
+	margin: 0;
+}
+/* 使用原生 @import "css"; 路径对了才不会报错 */
+/* @import "../src/02-plugins-module.css"; */
+.box {
+	box-shadow: 0 0 3px rgba(255,255,255, .3);
+}
+.body {
+	margin: 10px 20px 10px 20px;
+	font-size: 14px;
+}
+.body {
+	background-color: #ffffff;
+}
